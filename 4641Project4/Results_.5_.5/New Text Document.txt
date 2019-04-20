@@ -1,0 +1,20 @@
+The data below shows the number of steps/actions the agent required to reach 
+the terminal state given the number of iterations the algorithm was run.
+Iterations,10,20,30,40,50,60,70,80,90,100
+Value Iteration,36,30,15,19,20,29,43,43,38,35
+Policy Iteration,37,29,10,35,29,34,39,33,37,42
+Q Learning,56,43,36,45,30,72,43,57,65,14
+
+The data below shows the number of milliseconds the algorithm required to generate 
+the optimal policy given the number of iterations the algorithm was run.
+Iterations,10,20,30,40,50,60,70,80,90,100
+Value Iteration,126,238,288,323,352,422,496,572,633,683
+Policy Iteration,171,255,371,474,613,723,806,951,1000,1138
+Q Learning,2053,3462,4664,6217,7588,8946,10285,11563,12847,14121
+
+The data below shows the total reward gained for 
+the optimal policy given the number of iterations the algorithm was run.
+Iterations,10,20,30,40,50,60,70,80,90,100
+Value Iteration Rewards,83.60000000000001,91.7,-55.9,-59.8,-64.4,86.80000000000001,84.9,73.89999999999998,80.39999999999999,84.7
+Policy Iteration Rewards,82.0,86.30000000000001,-57.9,87.2,90.80000000000001,86.80000000000001,84.30000000000001,88.4,81.0,79.49999999999997
+Q Learning Rewards,37.09999999999995,59.89999999999996,76.09999999999998,46.19999999999997,81.69999999999999,4.500000000000227,82.4,49.49999999999995,60.69999999999995,-58.8

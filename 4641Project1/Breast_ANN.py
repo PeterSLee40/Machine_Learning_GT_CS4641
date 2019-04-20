@@ -8,8 +8,7 @@ Created on Sat Sep 22 11:31:01 2018
 from sklearn.neural_network import MLPClassifier
 import numpy as np
 from sklearn.model_selection import learning_curve, validation_curve
-import matplotlib.pyplot as plt  
-from sklearn.learning_curve import learning_curve
+import matplotlib.pyplot as plt
 import scikitplot as skplt
 X_trainingSet,y_trainingSet  = np.load('BreastData/X_trainingSet.npy'), np.load('BreastData/y_trainingSet.npy')
 X_testSet, y_testSet = np.load('BreastData/X_testSet.npy'), np.load('BreastData/y_testSet.npy')

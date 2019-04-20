@@ -1,0 +1,23 @@
+Num generated: 7944; num unique: 500
+//Aggregate Analysis//
+
+The data below shows the number of steps/actions the agent required to reach 
+the terminal state given the number of iterations the algorithm was run.
+Iterations,10,20,30,40,50,60,70,80,90,100
+Value Iteration,47,27,30,31,45,31,48,28,29,15
+Policy Iteration,39,35,30,29,28,10,37,16,35,27
+Q Learning,49,56,50,55,72,46,10,82,27,14
+
+The data below shows the number of milliseconds the algorithm required to generate 
+the optimal policy given the number of iterations the algorithm was run.
+Iterations,10,20,30,40,50,60,70,80,90,100
+Value Iteration,108,223,258,355,342,387,509,570,699,684
+Policy Iteration,185,248,336,433,552,694,776,884,1012,1103
+Q Learning,1940,3386,4581,5767,7118,8336,9446,10613,11832,12898
+
+The data below shows the total reward gained for 
+the optimal policy given the number of iterations the algorithm was run.
+Iterations,10,20,30,40,50,60,70,80,90,100
+Value Iteration Rewards,73.99999999999999,93.5,87.2,87.60000000000001,78.19999999999997,91.60000000000001,78.89999999999998,90.9,91.30000000000001,-60.9
+Policy Iteration Rewards,80.80000000000001,84.70000000000002,86.7,89.80000000000001,88.9,-53.900000000000006,81.99999999999999,-56.0,83.7,91.5
+Q Learning Rewards,74.79999999999998,36.09999999999995,79.19999999999997,78.19999999999997,19.00000000000017,63.09999999999996,-53.900000000000006,2.000000000000128,92.5,-60.3
