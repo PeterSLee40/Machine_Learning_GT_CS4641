@@ -1,6 +1,6 @@
 # Machine_Learning_GT_CS4641
 Software Written for CS 4641 Fall 2018 at Georgia Tech.
-Each Folder is a project for the class.
+Each Folder is a project for the class containing a report, the source code, and a readme.txt file describing the tech stack.
 
 Project 1: Supervised Learning and experimenting with different techniques such as Neural Networks and SVM's
 
